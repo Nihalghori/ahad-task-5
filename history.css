@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav {
+    background-color: #ffffff; /* blue navbar background */
+    padding: 3px 0; /* add some padding to the navbar */
+    text-align: center; /* align links to the center */
+}
+
+nav a {
+    color: #000000; /* white text color for links */
+    text-decoration: none; /* remove underline from links */
+    margin: 0 4px;
+    font-size: large;
+     /* add some space between links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* underline links on hover */
+}
+
+h1 {
+    color: #007bff;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    color: #333;
+}
+
+.post-content {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 0 5px;
+    }
+
+    /* Adjust image size for smaller screens */
+    .post-image {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
